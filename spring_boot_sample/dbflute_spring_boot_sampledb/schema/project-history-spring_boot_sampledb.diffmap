@@ -1,0 +1,52 @@
+map:{
+    ; 2015/04/20 05:40:21 = map:{
+        ; diffDate = 2015/04/20 05:40:21
+        ; tableCount = map:{
+            ; next = 2
+            ; previous = 1
+        }
+        ; tableDiff = map:{
+            ; TWEET = map:{
+                ; tableName = TWEET
+                ; diffType = ADD
+            }
+        }
+    }
+    ; 2015/04/20 03:48:54 = map:{
+        ; diffDate = 2015/04/20 03:48:54
+        ; tableDiff = map:{
+            ; USER = map:{
+                ; tableName = USER
+                ; diffType = CHANGE
+                ; columnDiff = map:{
+                    ; E_MAIL = map:{
+                        ; columnName = E_MAIL
+                        ; diffType = ADD
+                    }
+                    ; INS_TRACE = map:{
+                        ; columnName = INS_TRACE
+                        ; diffType = ADD
+                    }
+                    ; INS_DATETIME = map:{
+                        ; columnName = INS_DATETIME
+                        ; diffType = ADD
+                    }
+                    ; UPD_TRACE = map:{
+                        ; columnName = UPD_TRACE
+                        ; diffType = ADD
+                    }
+                    ; UPD_DATETIME = map:{
+                        ; columnName = UPD_DATETIME
+                        ; diffType = ADD
+                    }
+                }
+                ; uniqueKeyDiff = map:{
+                    ; E_MAIL = map:{
+                        ; constraintName = E_MAIL
+                        ; diffType = ADD
+                    }
+                }
+            }
+        }
+    }
+}
